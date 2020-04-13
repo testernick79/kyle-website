@@ -1,0 +1,55 @@
+.navbar .nav-link {
+  font-size: 15px;
+  padding-left: 2rem !important;
+  padding-right: 2rem !important;
+  color: #050505;
+}
+
+.navbar .nav-item.active {
+  border-left: #9aa0a1 4px solid;
+}
+
+.navbar {
+  background-color: #04a9cc;
+}
+
+.carousel-item {
+  height: 650px;
+}
+
+.carousel-image-1 {
+  background: url('../img/FrontPage.png');
+  background-size: cover;
+}
+
+#home-heading {
+  position: relative;
+  min-height: 300px;
+  background: url('../img/home-heading.jpg');
+  background-attachment: fixed;
+  background-repeat: no-repeat;
+  color: #fff;
+}
+
+.dark-overlay {
+  position: absolute;
+  top: 0;
+  left: 0;
+  width: 100%;
+  height: 100%;
+  background: rgba(0, 0, 0, 0.7);
+}
+
+#page-header {
+  height: 200px;
+  background-color: #050505;
+  background-position: 0 -360px;
+  background-attachment: fixed;
+  color: #fff;
+  border-bottom: 1px #eee solid;
+  padding-top: 75px;
+}
+
+.abouty-img {
+  margin-top: -50px;
+}
