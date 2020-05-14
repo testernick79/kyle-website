@@ -1,5 +1,5 @@
 .navbar .nav-link {
-  font-size: 15px;
+  font-size: 14px;
   padding-left: 2rem !important;
   padding-right: 2rem !important;
   color: #050505;
@@ -64,7 +64,21 @@ h1.pricing {
 h1.contact {
   margin-top: 33px;
 }
+.contact-img {
+  margin-left: 470px;
+}
 
 h3.slogan {
   margin-left: 20px;
+}
+
+#fb-icon {
+  padding-left: 2rem !important;
+  padding-right: 2rem !important;
+  color: whitesmoke;
+}
+#ig-icon {
+  padding-left: 2rem !important;
+  padding-right: 2rem !important;
+  color: whitesmoke;
 }
