@@ -1,16 +1,30 @@
+body {
+  overflow-x: hidden;
+}
+
 .navbar .nav-link {
   font-size: 14px;
+  text-transform: uppercase;
   padding-left: 2rem !important;
   padding-right: 2rem !important;
-  color: #050505;
 }
 
 .navbar .nav-item.active {
   border-left: #9aa0a1 4px solid;
 }
-
 .navbar {
   background-color: #04a9cc !important;
+}
+
+#fb-icon {
+  padding-left: 2rem !important;
+  padding-right: 2rem !important;
+  color: whitesmoke;
+}
+#ig-icon {
+  padding-left: 2rem !important;
+  padding-right: 2rem !important;
+  color: whitesmoke;
 }
 
 .carousel-item {
@@ -25,9 +39,10 @@
 #home-heading {
   position: relative;
   min-height: 300px;
-  background: url('../img/home-heading.jpg');
+  background: url('../img/lights.jpg');
   background-attachment: fixed;
   background-repeat: no-repeat;
+  text-align: center;
   color: #fff;
 }
 
@@ -40,14 +55,29 @@
   background: rgba(0, 0, 0, 0.7);
 }
 
+#video-play {
+  position: relative;
+  min-height: 200px;
+  background: url('../img/media.jpg');
+  background-attachment: fixed;
+  background-repeat: no-repeat;
+  background-position: 0 -300px;
+  text-align: center;
+  color: #fff;
+}
+
+#video-play a {
+  color: #fff;
+}
+
 #page-header {
   height: 200px;
-  background-color: #050505;
+  background-color: #000;
   background-position: 0 -360px;
   background-attachment: fixed;
   color: #fff;
   border-bottom: 1px #eee solid;
-  padding-top: 75px;
+  padding-top: 50px;
 }
 
 .abouty-img {
@@ -61,6 +91,7 @@ h1.about {
 h1.pricing {
   margin-top: 33px;
 }
+
 h1.contact {
   margin-top: 33px;
 }
@@ -72,13 +103,16 @@ h3.slogan {
   margin-left: 20px;
 }
 
-#fb-icon {
-  padding-left: 2rem !important;
-  padding-right: 2rem !important;
-  color: whitesmoke;
+#main-footer {
+  background: #000;
+  color: #fff;
 }
-#ig-icon {
-  padding-left: 2rem !important;
-  padding-right: 2rem !important;
-  color: whitesmoke;
+
+@media (min-width: 650px) {
+  h3.heading-1 {
+    font-size: 15px;
+  }
+}
+
+@media (max-width: 1200px) {
 }
