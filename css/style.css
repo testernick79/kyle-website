@@ -10,7 +10,7 @@
 }
 
 .navbar {
-  background-color: #04a9cc;
+  background-color: #04a9cc !important;
 }
 
 .carousel-item {
